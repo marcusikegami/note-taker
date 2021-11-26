@@ -25,21 +25,18 @@ router.post('/notes', (req, res) => {
 });
 
 router.delete('/notes/:id', (req, res) => {
-    // fs.readFile('../../db/db.json', (err, data) => {
-    //     if (err) throw err;
-    //     console.log(data);
-    //   });
-
-    // fs.readFile
-    console.log('this');
-    let id = req.params.id;
+    console.log(req.params.id);
+    console.log(notes);
     
-    delete notes[id];
-    fs.writeFileSync(
-        path.join(__dirname, '../../db/db.json'),
-        JSON.stringify(notes)
-    )
     
+    // let id = req.params.id;
+    
+    // delete notes[id];
+    // fs.writeFileSync(
+    //     path.join(__dirname, '../../db/db.json'),
+    //     JSON.stringify(notes)
+    // )
+    // res.json(notes);
 });
 
 module.exports = router;
