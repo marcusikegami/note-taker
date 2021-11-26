@@ -12,6 +12,8 @@
 
 Note taker utilizes express.js in order to have a front-end communicate with the applications back-end to allow users to write, save, and view notes. **Delete function TBD**
 
+![Notetaker Screenshot](https://github.com/marcusikegami/note-taker/blob/main/assets/images/note-taker.png?raw=true)
+
 ## Installation
 
 Clone the note-taker repo into the directory of your choice. If you have node.js installed, run the command 'npm install' to install all required packages in the node_modules. If you do not have node.js, install it in order to complete installation. Once node has installed all packages, run the command "npm server" to start a local server from the command-line. Navigate to "http://localhost:3001/" to view the running application.
