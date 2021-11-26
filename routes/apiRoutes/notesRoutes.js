@@ -24,16 +24,16 @@ router.post('/notes', (req, res) => {
     res.json(req.body);
 });
 
-router.delete('/notes', (req, res) => {
-    console.log('this');
-    let id = req.params.id;
-    // notes.splice[id];
-    // delete notes[id];
-    // fs.writeFileSync(
-    //     path.join(__dirname, '../../db/db.json'),
-    //     JSON.stringify(notes, null, 2)
-    // )
-    res.json(req.body);
-})
+// router.delete('/notes', (req, res) => {
+//     console.log('this');
+//     let id = req.params.id;
+//     // notes.splice[id];
+//     // delete notes[id];
+//     // fs.writeFileSync(
+//     //     path.join(__dirname, '../../db/db.json'),
+//     //     JSON.stringify(notes, null, 2)
+//     // )
+//     res.json(req.body);
+// })
 
 module.exports = router;
